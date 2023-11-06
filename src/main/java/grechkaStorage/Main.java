@@ -1,6 +1,5 @@
-package GrechkaStorage;
+package grechkaStorage;
 
-import java.io.InputStream;
 import java.util.Scanner;
 
 public class Main {
@@ -23,7 +22,7 @@ public class Main {
                 "Василий примерно съедает примерно " + eatsPerMonth + "кг гречки. Всего гречки у Василия " +
                 totalBuckwheatWeight + "кг. \n" +
                 "Платеж за хранение 1 килограмма гречки составляет " + moneyForStoragePerMonthForOneKg + "руб./месяц. \n" +
-                totalMoneyForStorage + " рублей - поднадобится залпатить Василию, для хранения гречки, до исчерпания его запасов ");
+                totalMoneyForStorage + " рублей поднадобится заплатить Василию, для хранения гречки, до исчерпания его запасов ");
 
     }
 }
