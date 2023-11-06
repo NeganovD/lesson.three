@@ -8,7 +8,6 @@ public class Main {
         int eatsPerMonth = 6;
         System.out.print("Введите количество месяцев: ");
         int month = scanner.nextInt();
-        int monthLeft = month;
         int buckwheatWeightLeft = month * eatsPerMonth;
         int totalBuckwheatWeight = month * eatsPerMonth;
         int totalMoneyForStorage = 0;
@@ -16,7 +15,6 @@ public class Main {
         for (int i = 1; i <= month; i++){
             totalMoneyForStorage = totalMoneyForStorage + buckwheatWeightLeft * moneyForStoragePerMonthForOneKg;
             buckwheatWeightLeft = buckwheatWeightLeft - eatsPerMonth;
-            monthLeft--;
         }
         System.out.println("Василий хранит свои запасы гречки на складе. \n" +
                 "Василий примерно съедает примерно " + eatsPerMonth + "кг гречки. Всего гречки у Василия " +
